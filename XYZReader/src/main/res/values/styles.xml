@@ -113,5 +113,11 @@
         <item name="android:layout_marginBottom">@dimen/detail_metabar_vert_padding</item>
     </style>
 
-
+    <style name="Theme.Bacon.Detail.Fab" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_share</item>
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+        <item name="android:clickable">true</item>
+    </style>
 </resources>
